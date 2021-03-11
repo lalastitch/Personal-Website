@@ -1,0 +1,43 @@
+.about{
+    text-align:center;
+    background-color: rgb(38, 146, 38);
+}
+
+.welcome{
+    font: Optima;
+}
+
+.information{
+    margin: auto 80px auto 80px;
+}
+
+.socialMedia{
+    text-align: center;
+    margin-top:100px;
+}
+
+.linkedin img{
+    width:100px;
+    height:4=100px;
+}
+
+.fb img{
+    width:100px;
+    height:100px;
+}
+
+.ig img{
+    width:100px;
+    height:100px;
+}
+
+.github img{
+    width:120px;
+    height:120px;
+}
+
+.about img{
+    border-radius: 150px;
+    height: 200px;
+    border: 2px solid green;
+}
