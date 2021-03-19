@@ -19,13 +19,20 @@
     font-size: 50px;
 }
 
+
+.blazer img{
+    height: 200px;
+    border-radius: 100px;
+    border:black solid 1px;
+    float: left;
+    text-align: center;
+}
+
 .socialMedia{
     text-align: center;
     position: absolute;
     margin-top: 150px;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 16px;
 }
 
 .linkedin img{
@@ -51,20 +58,15 @@
     height:75px;
 }
 
-.information{
-    margin: auto 80px auto 80px;
-}
-
 .text{
     text-align: center;
+    margin: auto 250px auto 250px;
+    color: rgb(8, 119, 73);
+    font-family: sans Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.text img{
-    height: 200px;
-    border-radius: 100px;
-    border:black solid 1px;
-    float: left;
-    text-align: center;
+.information{
+    font-size: 25px;
 }
 
 .main-nav {
@@ -74,8 +76,6 @@
     display: inline;
     float: right;
     position: absolute;
-    top: 8px;
-    right: 16px;
 }
 
 .main-nav li {
@@ -90,4 +90,18 @@
 .main-nav a:visited{
     text-decoration: none;
     color: rgb(8, 119, 73);
+}
+
+.main-nav a:hover{
+    color: rgb(88, 226, 169)
+}
+
+.greenBOI img{
+    position: absolute;
+    width:100px;
+    height:100px;
+    float: left;
+    padding-top: 0px;
+    top: 0px;
+    left: 16px;
 }
